@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cppsharp</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ash-global"></div>
+    <div class="bio-container">
+        <div class="border-glow"></div>
+        <div class="glow-effect"></div>
+        <div class="profile-image">
+            <img src= "bioava.jpg" alt="Profile Image">
+        </div>
+        <h1 id="typing-text">hjb</h1>
+        <div class="role"></div>
+        <div class="donate-section">
+            <a href="https://nohello.net" class="social-link" aria-label="NoHello" target="_blank">
+                <i class="fas fa-link"></i>
+                <span>NoHello.net</span>
+            </a>
+            <button class="social-link" onclick="toggleContainers()" aria-label="Donate">
+                <i class="fas fa-hand-holding-heart"></i>
+                <span>Donate</span>
+            </button>
+        </div>
+        <div class="social-links">
+            <a href="https://t.me/toncaptor" class="social-link" target="_blank" aria-label="Telegram">
+                <i class="fab fa-telegram"></i>
+                <span>Telegram</span>
+            </a>
+            <a href="t.me/mrluxie" class="social-link" target="_blank" aria-label="TgC">
+                <i class="fab fa-tiktok"></i>
+                <span>TgC</span>
+            </a>
+            <a href="https://t.me/toncaptor" class="social-link" target="_blank" aria-label="DM">
+                <i class="fab fa-github"></i>
+                <span>DM</span>
+            </a>
+            <a href="https://steamcommunity.com/profiles/76561199521961901" class="social-link" target="_blank" aria-label="Steam">
+                <i class="fab fa-steam"></i>
+                <span>Steam</span>
+            </a>
+        </div>
+    </div>
+    <div class="donation-container">
+        <div class="border-glow"></div>
+        <div class="glow-effect"></div>
+        <div class="gif-container">
+            <img src="https://tinypic.host/images/2025/02/19/7IUq.gif" alt="GIF">
+        </div>
+        <i class="fas fa-arrow-left back-button" onclick="toggleContainers()" aria-label="Back"></i>
+        <div class="donate-section">
+            
+            <a href="#" class="donate-link tonkeeper" onclick="copyTonkeeperAddress()">
+                <img src="tk.png" style="width: 70px; height: auto;">
+                <span><strong>Tonkeeper</strong></span>
+            </a>
+            <a href="#" class="donate-link solana" onclick="copySolanaAddress()">
+                <img src="sol.jpg" style="width: 70px; height: auto;">
+                <span><strong>SOL</strong></span>
+            </a>
+            <a href="#" class = "donate-link usdt" onclick="copyUSDTAddress()">
+                <img src="usdt.jpg" style="width: 70px; height: auto;">
+                <span><strong>USDT trc20</strong></span>
+            </a>
+            <a href="#" class="donate-link eth" onclick="copyETHAddress()">
+                <img src="eth.jpg" style="width: 70px; height: auto;">
+                <span><strong>ETH</strong></span>
+             </a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
